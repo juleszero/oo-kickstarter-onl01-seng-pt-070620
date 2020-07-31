@@ -12,4 +12,5 @@ class Backer
     @backed_projects << project 
     project.backers = self unless project.backer == self
   end
+
 end
